@@ -1,0 +1,278 @@
+{
+  "7": {
+    "roll": "7",
+    "result": "Animal Trainer"
+  },
+  "8": {
+    "roll": "8",
+    "result": "Antique Shop"
+  },
+  "9": {
+    "roll": "9",
+    "result": "Arcane Shop"
+  },
+  "10": {
+    "roll": "10",
+    "result": "Archaeologist"
+  },
+  "14": {
+    "roll": "14",
+    "result": "Arrow Shop"
+  },
+  "15": {
+    "roll": "15",
+    "result": "Art Dealer"
+  },
+  "18": {
+    "roll": "18",
+    "result": "Bank"
+  },
+  "19": {
+    "roll": "19",
+    "result": "Barber Shop"
+  },
+  "20": {
+    "roll": "20",
+    "result": "Black Market"
+  },
+  "21": {
+    "roll": "21",
+    "result": "Boat Builder"
+  },
+  "24": {
+    "roll": "24",
+    "result": "Butcher"
+  },
+  "25": {
+    "roll": "25",
+    "result": "Calligraphy Shop"
+  },
+  "26": {
+    "roll": "26",
+    "result": "Candle Maker"
+  },
+  "27": {
+    "roll": "27",
+    "result": "Candy Store"
+  },
+  "28": {
+    "roll": "28",
+    "result": "Cartographer Store"
+  },
+  "29": {
+    "roll": "29",
+    "result": "Casket Maker"
+  },
+  "33": {
+    "roll": "33",
+    "result": "Druidic Supplies"
+  },
+  "42": {
+    "roll": "42",
+    "result": "Fortune Teller"
+  },
+  "43": {
+    "roll": "43",
+    "result": "Game Store"
+  },
+  "48": {
+    "roll": "48",
+    "result": "Glassware"
+  },
+  "53": {
+    "roll": "53",
+    "result": "Incense Store"
+  },
+  "54": {
+    "roll": "54",
+    "result": "Jeweler"
+  },
+  "59": {
+    "roll": "59",
+    "result": "Locksmith"
+  },
+  "60": {
+    "roll": "60",
+    "result": "Magic Items"
+  },
+  "64": {
+    "roll": "64",
+    "result": "Mask Store"
+  },
+  "65": {
+    "roll": "65",
+    "result": "Masonry Shop"
+  },
+  "66": {
+    "roll": "66",
+    "result": "Medical Supplies"
+  },
+  "67": {
+    "roll": "67",
+    "result": "Moneylender"
+  },
+  "68": {
+    "roll": "68",
+    "result": "Music Shop"
+  },
+  "69": {
+    "roll": "69",
+    "result": "Oddity Shop"
+  },
+  "70": {
+    "roll": "70",
+    "result": "Oracle"
+  },
+  "71": {
+    "roll": "71",
+    "result": "Ore Shop"
+  },
+  "76": {
+    "roll": "76",
+    "result": "Perfume Shop"
+  },
+  "77": {
+    "roll": "77",
+    "result": "Potion Shop"
+  },
+  "78": {
+    "roll": "78",
+    "result": "Religious Supplies"
+  },
+  "79": {
+    "roll": "79",
+    "result": "Rope Store"
+  },
+  "80": {
+    "roll": "80",
+    "result": "Scribe"
+  },
+  "81": {
+    "roll": "81",
+    "result": "Seed Store"
+  },
+  "82": {
+    "roll": "82",
+    "result": "Seige Workshop"
+  },
+  "83": {
+    "roll": "83",
+    "result": "Shady Dealer"
+  },
+  "84": {
+    "roll": "84",
+    "result": "Tailor"
+  },
+  "85": {
+    "roll": "85",
+    "result": "Tattoo Parlor"
+  },
+  "89": {
+    "roll": "89",
+    "result": "Tea Shop"
+  },
+  "90": {
+    "roll": "90",
+    "result": "Tinker Shop"
+  },
+  "91": {
+    "roll": "91",
+    "result": "Toy Store"
+  },
+  "92": {
+    "roll": "92",
+    "result": "Trinket Shop"
+  },
+  "93": {
+    "roll": "93",
+    "result": "Undertaker Supplies"
+  },
+  "94": {
+    "roll": "94",
+    "result": "Useless Magic Items"
+  },
+  "95": {
+    "roll": "95",
+    "result": "Wagon Shop"
+  },
+  "96": {
+    "roll": "96",
+    "result": "Wandwright"
+  },
+  "97": {
+    "roll": "97",
+    "result": "Weaponsmith"
+  },
+  "98": {
+    "roll": "98",
+    "result": "Wig Maker"
+  },
+  "1-4": {
+    "roll": "1-4",
+    "result": "Adventuring Supplies"
+  },
+  "5-6": {
+    "roll": "5-6",
+    "result": "Alchemist Shop"
+  },
+  "11-13": {
+    "roll": "11-13",
+    "result": "Armorsmith"
+  },
+  "16-17": {
+    "roll": "16-17",
+    "result": "Bakery"
+  },
+  "22-23": {
+    "roll": "22-23",
+    "result": "Bookseller"
+  },
+  "30-32": {
+    "roll": "30-32",
+    "result": "Clothing Store"
+  },
+  "34-36": {
+    "roll": "34-36",
+    "result": "Fish Market"
+  },
+  "37-38": {
+    "roll": "37-38",
+    "result": "Fishing Supplies"
+  },
+  "39-41": {
+    "roll": "39-41",
+    "result": "Fletcher"
+  },
+  "44-47": {
+    "roll": "44-47",
+    "result": "General Store"
+  },
+  "49-50": {
+    "roll": "49-50",
+    "result": "Herb Store"
+  },
+  "51-52": {
+    "roll": "51-52",
+    "result": "Hunting Goods"
+  },
+  "55-58": {
+    "roll": "55-58",
+    "result": "Leatherworker"
+  },
+  "61-63": {
+    "roll": "61-63",
+    "result": "Market Stalls"
+  },
+  "72-75": {
+    "roll": "72-75",
+    "result": "Panhandler"
+  },
+  "86-88": {
+    "roll": "86-88",
+    "result": "Tavern"
+  },
+  "99-100": {
+    "roll": "99-100",
+    "result": "Wine Shop"
+  }
+}

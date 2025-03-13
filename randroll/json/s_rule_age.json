@@ -1,0 +1,34 @@
+{
+  "1": {
+    "roll": "1",
+    "result": "Child"
+  },
+  "2": {
+    "roll": "2",
+    "result": "Teenager"
+  },
+  "3": {
+    "roll": "3",
+    "result": "Young Adult"
+  },
+  "4": {
+    "roll": "4",
+    "result": "Middle Aged"
+  },
+  "5": {
+    "roll": "5",
+    "result": "Older Adult"
+  },
+  "6": {
+    "roll": "6",
+    "result": "Elder"
+  },
+  "7": {
+    "roll": "7",
+    "result": "Incredibly Old"
+  },
+  "8": {
+    "roll": "8",
+    "result": "Ancient"
+  }
+}

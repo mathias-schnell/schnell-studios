@@ -1,0 +1,402 @@
+{
+  "1": {
+    "roll": "1",
+    "result": "Canary in a cage"
+  },
+  "2": {
+    "roll": "2",
+    "result": "Short sword"
+  },
+  "3": {
+    "roll": "3",
+    "result": "Chicken eggs (6)"
+  },
+  "4": {
+    "roll": "4",
+    "result": "Bat in a cage"
+  },
+  "5": {
+    "roll": "5",
+    "result": "Spyglass"
+  },
+  "6": {
+    "roll": "6",
+    "result": "Tome of ancient history"
+  },
+  "7": {
+    "roll": "7",
+    "result": "Star Chart"
+  },
+  "8": {
+    "roll": "8",
+    "result": "Ink (2 jars)"
+  },
+  "9": {
+    "roll": "9",
+    "result": "Frog in a glass bowl"
+  },
+  "10": {
+    "roll": "10",
+    "result": "Crystal shard (6\")"
+  },
+  "11": {
+    "roll": "11",
+    "result": "Rat in a cage"
+  },
+  "12": {
+    "roll": "12",
+    "result": "Various personal letters"
+  },
+  "13": {
+    "roll": "13",
+    "result": "Map to a legendary library"
+  },
+  "14": {
+    "roll": "14",
+    "result": "Parchment (2, blank)"
+  },
+  "15": {
+    "roll": "15",
+    "result": "Robin eggs (2)"
+  },
+  "16": {
+    "roll": "16",
+    "result": "Glass vial"
+  },
+  "17": {
+    "roll": "17",
+    "result": "Healing potion"
+  },
+  "18": {
+    "roll": "18",
+    "result": "Globe"
+  },
+  "19": {
+    "roll": "19",
+    "result": "Small warrior figurine"
+  },
+  "20": {
+    "roll": "20",
+    "result": "Quartz (2”)"
+  },
+  "21": {
+    "roll": "21",
+    "result": "Candle (2)"
+  },
+  "22": {
+    "roll": "22",
+    "result": "Illustrated book about birds"
+  },
+  "23": {
+    "roll": "23",
+    "result": "Crystal ball"
+  },
+  "24": {
+    "roll": "24",
+    "result": "Quill"
+  },
+  "25": {
+    "roll": "25",
+    "result": "Gold pieces (1D20)"
+  },
+  "26": {
+    "roll": "26",
+    "result": "Smoking Pipe"
+  },
+  "27": {
+    "roll": "27",
+    "result": "Various roots"
+  },
+  "28": {
+    "roll": "28",
+    "result": "Book of ancient runes"
+  },
+  "29": {
+    "roll": "29",
+    "result": "Poison (2 doses)"
+  },
+  "30": {
+    "roll": "30",
+    "result": "Finch in a cage"
+  },
+  "31": {
+    "roll": "31",
+    "result": "Owl (stuffed)"
+  },
+  "32": {
+    "roll": "32",
+    "result": "Wicks (5)"
+  },
+  "33": {
+    "roll": "33",
+    "result": "Illustrated book about dragons"
+  },
+  "34": {
+    "roll": "34",
+    "result": "Hourglass"
+  },
+  "35": {
+    "roll": "35",
+    "result": "Diary"
+  },
+  "36": {
+    "roll": "36",
+    "result": "Fossilized shark teeth (4)"
+  },
+  "37": {
+    "roll": "37",
+    "result": "Bee preserved in alcohol"
+  },
+  "38": {
+    "roll": "38",
+    "result": "Moss (dried)"
+  },
+  "39": {
+    "roll": "39",
+    "result": "Bone powder"
+  },
+  "40": {
+    "roll": "40",
+    "result": "Scribe’s knife"
+  },
+  "41": {
+    "roll": "41",
+    "result": "Oil (1 vial)"
+  },
+  "42": {
+    "roll": "42",
+    "result": "Mushrooms growing in a pot"
+  },
+  "43": {
+    "roll": "43",
+    "result": "Lizard in a cage"
+  },
+  "44": {
+    "roll": "44",
+    "result": "Bottle cork (3)"
+  },
+  "45": {
+    "roll": "45",
+    "result": "White mice in a cage (7)"
+  },
+  "46": {
+    "roll": "46",
+    "result": "Wax (3 blocks)"
+  },
+  "47": {
+    "roll": "47",
+    "result": "Frogs legs (8, dried)"
+  },
+  "48": {
+    "roll": "48",
+    "result": "Packet of seeds (35)"
+  },
+  "49": {
+    "roll": "49",
+    "result": "Snake preserved in alcohol"
+  },
+  "50": {
+    "roll": "50",
+    "result": "Journal book (blank)"
+  },
+  "51": {
+    "roll": "51",
+    "result": "Butterfly net"
+  },
+  "52": {
+    "roll": "52",
+    "result": "Illustrated book about fish"
+  },
+  "53": {
+    "roll": "53",
+    "result": "Vellum (4, blank)"
+  },
+  "54": {
+    "roll": "54",
+    "result": "Glass bottle"
+  },
+  "55": {
+    "roll": "55",
+    "result": "Ink blotter"
+  },
+  "56": {
+    "roll": "56",
+    "result": "Silver pieces (1D100)"
+  },
+  "57": {
+    "roll": "57",
+    "result": "Book of magical theory"
+  },
+  "58": {
+    "roll": "58",
+    "result": "Dagger"
+  },
+  "59": {
+    "roll": "59",
+    "result": "Spider eggs in a jar (15)"
+  },
+  "60": {
+    "roll": "60",
+    "result": "Book of mythical beasts"
+  },
+  "61": {
+    "roll": "61",
+    "result": "Lamp"
+  },
+  "62": {
+    "roll": "62",
+    "result": "Book of potions"
+  },
+  "63": {
+    "roll": "63",
+    "result": "Collection of ancient scrolls"
+  },
+  "64": {
+    "roll": "64",
+    "result": "Small velvet bag"
+  },
+  "65": {
+    "roll": "65",
+    "result": "Small ruby"
+  },
+  "66": {
+    "roll": "66",
+    "result": "Hazelnuts (12)"
+  },
+  "67": {
+    "roll": "67",
+    "result": "Human skull"
+  },
+  "68": {
+    "roll": "68",
+    "result": "Copper tubing (3’)"
+  },
+  "69": {
+    "roll": "69",
+    "result": "Book of folklore"
+  },
+  "70": {
+    "roll": "70",
+    "result": "Tome of recent history"
+  },
+  "71": {
+    "roll": "71",
+    "result": "Snake venom in a jar"
+  },
+  "72": {
+    "roll": "72",
+    "result": "Collection of leafs (dried)"
+  },
+  "73": {
+    "roll": "73",
+    "result": "Book of herbs"
+  },
+  "74": {
+    "roll": "74",
+    "result": "Small wooden spheres (6)"
+  },
+  "75": {
+    "roll": "75",
+    "result": "Collection of small fossils"
+  },
+  "76": {
+    "roll": "76",
+    "result": "Alligator (stuffed)"
+  },
+  "77": {
+    "roll": "77",
+    "result": "Bat wings (8, dried)"
+  },
+  "78": {
+    "roll": "78",
+    "result": "Board with various insects pinned"
+  },
+  "79": {
+    "roll": "79",
+    "result": "Toadstools (7, dried)"
+  },
+  "80": {
+    "roll": "80",
+    "result": "Hat"
+  },
+  "81": {
+    "roll": "81",
+    "result": "Illustrated book about plants"
+  },
+  "82": {
+    "roll": "82",
+    "result": "Salamander in a glass bowl"
+  },
+  "83": {
+    "roll": "83",
+    "result": "Collection of odd rocks"
+  },
+  "84": {
+    "roll": "84",
+    "result": "Signet ring"
+  },
+  "85": {
+    "roll": "85",
+    "result": "Small leather pouch"
+  },
+  "86": {
+    "roll": "86",
+    "result": "Longbottom leaf (9, dried)"
+  },
+  "87": {
+    "roll": "87",
+    "result": "Tome of magic history"
+  },
+  "88": {
+    "roll": "88",
+    "result": "Small wooden chest (empty)"
+  },
+  "89": {
+    "roll": "89",
+    "result": "Cay tablet with inscription"
+  },
+  "90": {
+    "roll": "90",
+    "result": "Book of astrology"
+  },
+  "91": {
+    "roll": "91",
+    "result": "Snake eggs preserved in alcohol"
+  },
+  "92": {
+    "roll": "92",
+    "result": "Healing potion (2)"
+  },
+  "93": {
+    "roll": "93",
+    "result": "Monkey (stuffed)"
+  },
+  "94": {
+    "roll": "94",
+    "result": "Book of spirits and apparitions"
+  },
+  "95": {
+    "roll": "95",
+    "result": "Book of alchemy"
+  },
+  "96": {
+    "roll": "96",
+    "result": "Small mystic symbol"
+  },
+  "97": {
+    "roll": "97",
+    "result": "Ancient vellum manuscript"
+  },
+  "98": {
+    "roll": "98",
+    "result": "Telescope"
+  },
+  "99": {
+    "roll": "99",
+    "result": "Staff"
+  },
+  "100": {
+    "roll": "100",
+    "result": "Spell book"
+  }
+}

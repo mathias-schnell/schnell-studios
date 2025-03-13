@@ -1,0 +1,1202 @@
+{
+  "1": {
+    "roll": "1",
+    "result": "Malachite"
+  },
+  "2": {
+    "roll": "2",
+    "result": "Pantellerite"
+  },
+  "3": {
+    "roll": "3",
+    "result": "Conichalcite"
+  },
+  "4": {
+    "roll": "4",
+    "result": "Carletonite"
+  },
+  "5": {
+    "roll": "5",
+    "result": "Creedite"
+  },
+  "6": {
+    "roll": "6",
+    "result": "Annabergite"
+  },
+  "7": {
+    "roll": "7",
+    "result": "Vanadinite"
+  },
+  "8": {
+    "roll": "8",
+    "result": "Andradite"
+  },
+  "9": {
+    "roll": "9",
+    "result": "Alunite"
+  },
+  "10": {
+    "roll": "10",
+    "result": "Druzy"
+  },
+  "11": {
+    "roll": "11",
+    "result": "Hauyne"
+  },
+  "12": {
+    "roll": "12",
+    "result": "Aurichalcite"
+  },
+  "13": {
+    "roll": "13",
+    "result": "Rubellite"
+  },
+  "14": {
+    "roll": "14",
+    "result": "Rutile"
+  },
+  "15": {
+    "roll": "15",
+    "result": "Halite"
+  },
+  "16": {
+    "roll": "16",
+    "result": "Chrysocolla"
+  },
+  "17": {
+    "roll": "17",
+    "result": "Boracite"
+  },
+  "18": {
+    "roll": "18",
+    "result": "Augite"
+  },
+  "19": {
+    "roll": "19",
+    "result": "Pyrope"
+  },
+  "20": {
+    "roll": "20",
+    "result": "Hambergite"
+  },
+  "21": {
+    "roll": "21",
+    "result": "Lawsonite"
+  },
+  "22": {
+    "roll": "22",
+    "result": "Zincite"
+  },
+  "23": {
+    "roll": "23",
+    "result": "Clinochlore"
+  },
+  "24": {
+    "roll": "24",
+    "result": "Ametrine"
+  },
+  "25": {
+    "roll": "25",
+    "result": "Agate"
+  },
+  "26": {
+    "roll": "26",
+    "result": "Diopside"
+  },
+  "27": {
+    "roll": "27",
+    "result": "Lammerite"
+  },
+  "28": {
+    "roll": "28",
+    "result": "Tantalite"
+  },
+  "29": {
+    "roll": "29",
+    "result": "Seraphinite"
+  },
+  "30": {
+    "roll": "30",
+    "result": "Rhodochrosite"
+  },
+  "31": {
+    "roll": "31",
+    "result": "Rossmanite"
+  },
+  "32": {
+    "roll": "32",
+    "result": "Bixbite"
+  },
+  "33": {
+    "roll": "33",
+    "result": "Stolzite"
+  },
+  "34": {
+    "roll": "34",
+    "result": "Pectolite"
+  },
+  "35": {
+    "roll": "35",
+    "result": "Grossular"
+  },
+  "36": {
+    "roll": "36",
+    "result": "Actinolite"
+  },
+  "37": {
+    "roll": "37",
+    "result": "Moonstone"
+  },
+  "38": {
+    "roll": "38",
+    "result": "Tusionite"
+  },
+  "39": {
+    "roll": "39",
+    "result": "Anthophyllite"
+  },
+  "40": {
+    "roll": "40",
+    "result": "Gypsum"
+  },
+  "41": {
+    "roll": "41",
+    "result": "Sylvite"
+  },
+  "42": {
+    "roll": "42",
+    "result": "Wolfenite"
+  },
+  "43": {
+    "roll": "43",
+    "result": "Sapphire"
+  },
+  "44": {
+    "roll": "44",
+    "result": "Afghanite"
+  },
+  "45": {
+    "roll": "45",
+    "result": "Susannite"
+  },
+  "46": {
+    "roll": "46",
+    "result": "Lechatelierite"
+  },
+  "47": {
+    "roll": "47",
+    "result": "Kunzite"
+  },
+  "48": {
+    "roll": "48",
+    "result": "Charoite"
+  },
+  "49": {
+    "roll": "49",
+    "result": "Brazilianite"
+  },
+  "50": {
+    "roll": "50",
+    "result": "Titanite/Sphene"
+  },
+  "51": {
+    "roll": "51",
+    "result": "Anhydrite"
+  },
+  "52": {
+    "roll": "52",
+    "result": "Pollucite"
+  },
+  "53": {
+    "roll": "53",
+    "result": "Olivine"
+  },
+  "54": {
+    "roll": "54",
+    "result": "Fluorapatite"
+  },
+  "55": {
+    "roll": "55",
+    "result": "Hibonite"
+  },
+  "56": {
+    "roll": "56",
+    "result": "Jeremejevite"
+  },
+  "57": {
+    "roll": "57",
+    "result": "Ceylonite"
+  },
+  "58": {
+    "roll": "58",
+    "result": "Goshenite"
+  },
+  "59": {
+    "roll": "59",
+    "result": "Villiaumite"
+  },
+  "60": {
+    "roll": "60",
+    "result": "Kutnohorite"
+  },
+  "61": {
+    "roll": "61",
+    "result": "Celestite/Celestine"
+  },
+  "62": {
+    "roll": "62",
+    "result": "Nimite"
+  },
+  "63": {
+    "roll": "63",
+    "result": "Kimberlite"
+  },
+  "64": {
+    "roll": "64",
+    "result": "Serpentite"
+  },
+  "65": {
+    "roll": "65",
+    "result": "Nephrite"
+  },
+  "66": {
+    "roll": "66",
+    "result": "Hardystonite"
+  },
+  "67": {
+    "roll": "67",
+    "result": "Smoky"
+  },
+  "68": {
+    "roll": "68",
+    "result": "Shattuckite"
+  },
+  "69": {
+    "roll": "69",
+    "result": "Amethyst"
+  },
+  "70": {
+    "roll": "70",
+    "result": "Stilbite"
+  },
+  "71": {
+    "roll": "71",
+    "result": "Wakefieldite"
+  },
+  "72": {
+    "roll": "72",
+    "result": "Labradorite"
+  },
+  "73": {
+    "roll": "73",
+    "result": "Hemimorphite"
+  },
+  "74": {
+    "roll": "74",
+    "result": "Amazonite"
+  },
+  "75": {
+    "roll": "75",
+    "result": "Chalcopyrite"
+  },
+  "76": {
+    "roll": "76",
+    "result": "Turquoise"
+  },
+  "77": {
+    "roll": "77",
+    "result": "Citrine"
+  },
+  "78": {
+    "roll": "78",
+    "result": "Cerussite"
+  },
+  "79": {
+    "roll": "79",
+    "result": "Alexandrite"
+  },
+  "80": {
+    "roll": "80",
+    "result": "Chondrodite"
+  },
+  "81": {
+    "roll": "81",
+    "result": "Sunstone"
+  },
+  "82": {
+    "roll": "82",
+    "result": "Zektzerite"
+  },
+  "83": {
+    "roll": "83",
+    "result": "Thulite"
+  },
+  "84": {
+    "roll": "84",
+    "result": "Dolomite"
+  },
+  "85": {
+    "roll": "85",
+    "result": "Elbaite"
+  },
+  "86": {
+    "roll": "86",
+    "result": "Rhodizite"
+  },
+  "87": {
+    "roll": "87",
+    "result": "Manganoan calcite"
+  },
+  "88": {
+    "roll": "88",
+    "result": "Pyrite"
+  },
+  "89": {
+    "roll": "89",
+    "result": "Chambersite"
+  },
+  "90": {
+    "roll": "90",
+    "result": "Normandite"
+  },
+  "91": {
+    "roll": "91",
+    "result": "Corundum"
+  },
+  "92": {
+    "roll": "92",
+    "result": "Carnallite"
+  },
+  "93": {
+    "roll": "93",
+    "result": "Raspite"
+  },
+  "94": {
+    "roll": "94",
+    "result": "Plumbogummite"
+  },
+  "95": {
+    "roll": "95",
+    "result": "Rose"
+  },
+  "96": {
+    "roll": "96",
+    "result": "Alabaster"
+  },
+  "97": {
+    "roll": "97",
+    "result": "Bornite"
+  },
+  "98": {
+    "roll": "98",
+    "result": "Polyhalite"
+  },
+  "99": {
+    "roll": "99",
+    "result": "Poudretteite"
+  },
+  "100": {
+    "roll": "100",
+    "result": "Clintonite"
+  },
+  "101": {
+    "roll": "101",
+    "result": "Quartz"
+  },
+  "102": {
+    "roll": "102",
+    "result": "Xenotime"
+  },
+  "103": {
+    "roll": "103",
+    "result": "Enstatite"
+  },
+  "104": {
+    "roll": "104",
+    "result": "Garnet"
+  },
+  "105": {
+    "roll": "105",
+    "result": "Prehnite"
+  },
+  "106": {
+    "roll": "106",
+    "result": "Nepheline/Elaeolite"
+  },
+  "107": {
+    "roll": "107",
+    "result": "Ruby"
+  },
+  "108": {
+    "roll": "108",
+    "result": "Rosasite"
+  },
+  "109": {
+    "roll": "109",
+    "result": "Austinite"
+  },
+  "110": {
+    "roll": "110",
+    "result": "Boleite"
+  },
+  "111": {
+    "roll": "111",
+    "result": "Mendipite"
+  },
+  "112": {
+    "roll": "112",
+    "result": "Spherocobaltite"
+  },
+  "113": {
+    "roll": "113",
+    "result": "Pargasite"
+  },
+  "114": {
+    "roll": "114",
+    "result": "Anatase"
+  },
+  "115": {
+    "roll": "115",
+    "result": "Taaffeite"
+  },
+  "116": {
+    "roll": "116",
+    "result": "Glaucophane"
+  },
+  "117": {
+    "roll": "117",
+    "result": "Pyromorphite"
+  },
+  "118": {
+    "roll": "118",
+    "result": "Beryl"
+  },
+  "119": {
+    "roll": "119",
+    "result": "Forsterite"
+  },
+  "120": {
+    "roll": "120",
+    "result": "Siderite"
+  },
+  "121": {
+    "roll": "121",
+    "result": "Shigaite"
+  },
+  "122": {
+    "roll": "122",
+    "result": "Selenite"
+  },
+  "123": {
+    "roll": "123",
+    "result": "Emerald"
+  },
+  "124": {
+    "roll": "124",
+    "result": "Papagoite"
+  },
+  "125": {
+    "roll": "125",
+    "result": "Bronzite"
+  },
+  "126": {
+    "roll": "126",
+    "result": "Vauxite"
+  },
+  "127": {
+    "roll": "127",
+    "result": "Scorodite"
+  },
+  "128": {
+    "roll": "128",
+    "result": "Botallackite"
+  },
+  "129": {
+    "roll": "129",
+    "result": "Tinzenite"
+  },
+  "130": {
+    "roll": "130",
+    "result": "Spodumene"
+  },
+  "131": {
+    "roll": "131",
+    "result": "Ankerite"
+  },
+  "132": {
+    "roll": "132",
+    "result": "Cuprite"
+  },
+  "133": {
+    "roll": "133",
+    "result": "Brookite"
+  },
+  "134": {
+    "roll": "134",
+    "result": "Dumortierite"
+  },
+  "135": {
+    "roll": "135",
+    "result": "Pietersite"
+  },
+  "136": {
+    "roll": "136",
+    "result": "Bowenite"
+  },
+  "137": {
+    "roll": "137",
+    "result": "Citrine"
+  },
+  "138": {
+    "roll": "138",
+    "result": "Axinite Group"
+  },
+  "139": {
+    "roll": "139",
+    "result": "Bytownite"
+  },
+  "140": {
+    "roll": "140",
+    "result": "Mimetite"
+  },
+  "141": {
+    "roll": "141",
+    "result": "Plancheite"
+  },
+  "142": {
+    "roll": "142",
+    "result": "Hiddenite"
+  },
+  "143": {
+    "roll": "143",
+    "result": "Feldspar"
+  },
+  "144": {
+    "roll": "144",
+    "result": "Ferroaxinite"
+  },
+  "145": {
+    "roll": "145",
+    "result": "Agardite"
+  },
+  "146": {
+    "roll": "146",
+    "result": "Tyrolite"
+  },
+  "147": {
+    "roll": "147",
+    "result": "Humite"
+  },
+  "148": {
+    "roll": "148",
+    "result": "Lazurite"
+  },
+  "149": {
+    "roll": "149",
+    "result": "Kainite"
+  },
+  "150": {
+    "roll": "150",
+    "result": "Andesine"
+  },
+  "151": {
+    "roll": "151",
+    "result": "Gibbsite"
+  },
+  "152": {
+    "roll": "152",
+    "result": "Bayldonite"
+  },
+  "153": {
+    "roll": "153",
+    "result": "Jacinth"
+  },
+  "154": {
+    "roll": "154",
+    "result": "Moissanite"
+  },
+  "155": {
+    "roll": "155",
+    "result": "Larimar"
+  },
+  "156": {
+    "roll": "156",
+    "result": "Londonite"
+  },
+  "157": {
+    "roll": "157",
+    "result": "Aquamarine"
+  },
+  "158": {
+    "roll": "158",
+    "result": "Weloganite"
+  },
+  "159": {
+    "roll": "159",
+    "result": "Baryte/Barite"
+  },
+  "160": {
+    "roll": "160",
+    "result": "Zinnwaldite"
+  },
+  "161": {
+    "roll": "161",
+    "result": "Langbeinite"
+  },
+  "162": {
+    "roll": "162",
+    "result": "Variscite"
+  },
+  "163": {
+    "roll": "163",
+    "result": "Goethite"
+  },
+  "164": {
+    "roll": "164",
+    "result": "Musgravite"
+  },
+  "165": {
+    "roll": "165",
+    "result": "Fluorite"
+  },
+  "166": {
+    "roll": "166",
+    "result": "Chloromelanite"
+  },
+  "167": {
+    "roll": "167",
+    "result": "Garnierite"
+  },
+  "168": {
+    "roll": "168",
+    "result": "Sodalite"
+  },
+  "169": {
+    "roll": "169",
+    "result": "Magnesite"
+  },
+  "170": {
+    "roll": "170",
+    "result": "Californite"
+  },
+  "171": {
+    "roll": "171",
+    "result": "Zircon"
+  },
+  "172": {
+    "roll": "172",
+    "result": "Olivenite"
+  },
+  "173": {
+    "roll": "173",
+    "result": "Heliodor"
+  },
+  "174": {
+    "roll": "174",
+    "result": "Alabaster"
+  },
+  "175": {
+    "roll": "175",
+    "result": "Hiddenite"
+  },
+  "176": {
+    "roll": "176",
+    "result": "Muscovite"
+  },
+  "177": {
+    "roll": "177",
+    "result": "Thomsonite"
+  },
+  "178": {
+    "roll": "178",
+    "result": "Atacamite"
+  },
+  "179": {
+    "roll": "179",
+    "result": "Orthoclase"
+  },
+  "180": {
+    "roll": "180",
+    "result": "Albite"
+  },
+  "181": {
+    "roll": "181",
+    "result": "Zoisite"
+  },
+  "182": {
+    "roll": "182",
+    "result": "Zeolite/Thomsonite"
+  },
+  "183": {
+    "roll": "183",
+    "result": "Sulphur"
+  },
+  "184": {
+    "roll": "184",
+    "result": "Tiger’s Eye"
+  },
+  "185": {
+    "roll": "185",
+    "result": "Scapolite"
+  },
+  "186": {
+    "roll": "186",
+    "result": "Aragonite"
+  },
+  "187": {
+    "roll": "187",
+    "result": "Posnjakite"
+  },
+  "188": {
+    "roll": "188",
+    "result": "Purpurite"
+  },
+  "189": {
+    "roll": "189",
+    "result": "Cymophane (Cat’s eye)"
+  },
+  "190": {
+    "roll": "190",
+    "result": "Brochantite"
+  },
+  "191": {
+    "roll": "191",
+    "result": "Opal"
+  },
+  "192": {
+    "roll": "192",
+    "result": "Danburite"
+  },
+  "193": {
+    "roll": "193",
+    "result": "Strengite"
+  },
+  "194": {
+    "roll": "194",
+    "result": "Botryogen"
+  },
+  "195": {
+    "roll": "195",
+    "result": "Vesuvianite/Idocrase"
+  },
+  "196": {
+    "roll": "196",
+    "result": "Nephrite"
+  },
+  "197": {
+    "roll": "197",
+    "result": "Cavansite"
+  },
+  "198": {
+    "roll": "198",
+    "result": "Milky"
+  },
+  "199": {
+    "roll": "199",
+    "result": "Pharmacosiderite"
+  },
+  "200": {
+    "roll": "200",
+    "result": "Spessartine"
+  },
+  "201": {
+    "roll": "201",
+    "result": "Phosgenite"
+  },
+  "202": {
+    "roll": "202",
+    "result": "Aegerine"
+  },
+  "203": {
+    "roll": "203",
+    "result": "Petalite/Castorite"
+  },
+  "204": {
+    "roll": "204",
+    "result": "Kyanite"
+  },
+  "205": {
+    "roll": "205",
+    "result": "Cummingtonite"
+  },
+  "206": {
+    "roll": "206",
+    "result": "Epidote"
+  },
+  "207": {
+    "roll": "207",
+    "result": "Riebeckite"
+  },
+  "208": {
+    "roll": "208",
+    "result": "Stichtite"
+  },
+  "209": {
+    "roll": "209",
+    "result": "Esperite"
+  },
+  "210": {
+    "roll": "210",
+    "result": "Anglesite"
+  },
+  "211": {
+    "roll": "211",
+    "result": "Scolecite"
+  },
+  "212": {
+    "roll": "212",
+    "result": "Phlogopite"
+  },
+  "213": {
+    "roll": "213",
+    "result": "Fayalite"
+  },
+  "214": {
+    "roll": "214",
+    "result": "Cinnabar"
+  },
+  "215": {
+    "roll": "215",
+    "result": "Cordierite"
+  },
+  "216": {
+    "roll": "216",
+    "result": "Linarite"
+  },
+  "217": {
+    "roll": "217",
+    "result": "lolite"
+  },
+  "218": {
+    "roll": "218",
+    "result": "Datolite"
+  },
+  "219": {
+    "roll": "219",
+    "result": "Antlerite"
+  },
+  "220": {
+    "roll": "220",
+    "result": "Wavellite"
+  },
+  "221": {
+    "roll": "221",
+    "result": "Scheelite"
+  },
+  "222": {
+    "roll": "222",
+    "result": "Caledonite"
+  },
+  "223": {
+    "roll": "223",
+    "result": "Serendibite"
+  },
+  "224": {
+    "roll": "224",
+    "result": "Lepidolite"
+  },
+  "225": {
+    "roll": "225",
+    "result": "Jade"
+  },
+  "226": {
+    "roll": "226",
+    "result": "Stishovite"
+  },
+  "227": {
+    "roll": "227",
+    "result": "Biotite"
+  },
+  "228": {
+    "roll": "228",
+    "result": "Schorlomite"
+  },
+  "229": {
+    "roll": "229",
+    "result": "Pimelite"
+  },
+  "230": {
+    "roll": "230",
+    "result": "Vermiculite"
+  },
+  "231": {
+    "roll": "231",
+    "result": "Legrandite"
+  },
+  "232": {
+    "roll": "232",
+    "result": "Hanksite"
+  },
+  "233": {
+    "roll": "233",
+    "result": "Leadhillite"
+  },
+  "234": {
+    "roll": "234",
+    "result": "Tourmaline"
+  },
+  "235": {
+    "roll": "235",
+    "result": "Apophyllite"
+  },
+  "236": {
+    "roll": "236",
+    "result": "Sugilite"
+  },
+  "237": {
+    "roll": "237",
+    "result": "Jasper"
+  },
+  "238": {
+    "roll": "238",
+    "result": "Cacoxenite"
+  },
+  "239": {
+    "roll": "239",
+    "result": "Antigorite"
+  },
+  "240": {
+    "roll": "240",
+    "result": "Dioptase"
+  },
+  "241": {
+    "roll": "241",
+    "result": "Melanterite"
+  },
+  "242": {
+    "roll": "242",
+    "result": "Proustite"
+  },
+  "243": {
+    "roll": "243",
+    "result": "Kunzite"
+  },
+  "244": {
+    "roll": "244",
+    "result": "Chrysoberyl"
+  },
+  "245": {
+    "roll": "245",
+    "result": "Hematite"
+  },
+  "246": {
+    "roll": "246",
+    "result": "Carminite"
+  },
+  "247": {
+    "roll": "247",
+    "result": "Serandite"
+  },
+  "248": {
+    "roll": "248",
+    "result": "Peridot"
+  },
+  "249": {
+    "roll": "249",
+    "result": "Leucophanite"
+  },
+  "250": {
+    "roll": "250",
+    "result": "Tsavorite"
+  },
+  "251": {
+    "roll": "251",
+    "result": "Cassiterite"
+  },
+  "252": {
+    "roll": "252",
+    "result": "Crocidolite"
+  },
+  "253": {
+    "roll": "253",
+    "result": "Jadeite"
+  },
+  "254": {
+    "roll": "254",
+    "result": "Carnelian"
+  },
+  "255": {
+    "roll": "255",
+    "result": "Tinaksite"
+  },
+  "256": {
+    "roll": "256",
+    "result": "Analcime"
+  },
+  "257": {
+    "roll": "257",
+    "result": "Chlorastrolite"
+  },
+  "258": {
+    "roll": "258",
+    "result": "Kornerupine"
+  },
+  "259": {
+    "roll": "259",
+    "result": "Spinel"
+  },
+  "260": {
+    "roll": "260",
+    "result": "Dravite"
+  },
+  "261": {
+    "roll": "261",
+    "result": "Kidney Ore"
+  },
+  "262": {
+    "roll": "262",
+    "result": "Tschermakite"
+  },
+  "263": {
+    "roll": "263",
+    "result": "Tugtupite"
+  },
+  "264": {
+    "roll": "264",
+    "result": "Magnesioaxinite"
+  },
+  "265": {
+    "roll": "265",
+    "result": "Uvarovite"
+  },
+  "266": {
+    "roll": "266",
+    "result": "Brucite"
+  },
+  "267": {
+    "roll": "267",
+    "result": "Mookaite"
+  },
+  "268": {
+    "roll": "268",
+    "result": "Pyrrhotite"
+  },
+  "269": {
+    "roll": "269",
+    "result": "Clinozoisite"
+  },
+  "270": {
+    "roll": "270",
+    "result": "Spessartine/Spessartite"
+  },
+  "271": {
+    "roll": "271",
+    "result": "Pezzottaite"
+  },
+  "272": {
+    "roll": "272",
+    "result": "Morganite"
+  },
+  "273": {
+    "roll": "273",
+    "result": "Astrophyllite"
+  },
+  "274": {
+    "roll": "274",
+    "result": "Hessonite"
+  },
+  "275": {
+    "roll": "275",
+    "result": "Ferroaxinite"
+  },
+  "276": {
+    "roll": "276",
+    "result": "Calcite"
+  },
+  "277": {
+    "roll": "277",
+    "result": "Beudantite"
+  },
+  "278": {
+    "roll": "278",
+    "result": "Adamite"
+  },
+  "279": {
+    "roll": "279",
+    "result": "Diaspore"
+  },
+  "280": {
+    "roll": "280",
+    "result": "Jarosite"
+  },
+  "281": {
+    "roll": "281",
+    "result": "Olenite"
+  },
+  "282": {
+    "roll": "282",
+    "result": "Benitoite"
+  },
+  "283": {
+    "roll": "283",
+    "result": "Andalusite"
+  },
+  "284": {
+    "roll": "284",
+    "result": "Topaz"
+  },
+  "285": {
+    "roll": "285",
+    "result": "Azurite"
+  },
+  "286": {
+    "roll": "286",
+    "result": "Diaboleite"
+  },
+  "287": {
+    "roll": "287",
+    "result": "Tremolite"
+  },
+  "288": {
+    "roll": "288",
+    "result": "Natrophilite"
+  },
+  "289": {
+    "roll": "289",
+    "result": "Chalcedony"
+  },
+  "290": {
+    "roll": "290",
+    "result": "Pumpellyite"
+  },
+  "291": {
+    "roll": "291",
+    "result": "Langite"
+  },
+  "292": {
+    "roll": "292",
+    "result": "Fluorapophyllite"
+  },
+  "293": {
+    "roll": "293",
+    "result": "Manganaxinite"
+  },
+  "294": {
+    "roll": "294",
+    "result": "Diamond"
+  },
+  "295": {
+    "roll": "295",
+    "result": "Smithsonite"
+  },
+  "296": {
+    "roll": "296",
+    "result": "Chrysotile"
+  },
+  "297": {
+    "roll": "297",
+    "result": "Clinohumite"
+  },
+  "298": {
+    "roll": "298",
+    "result": "Almandine"
+  },
+  "299": {
+    "roll": "299",
+    "result": "Erythrite"
+  },
+  "300": {
+    "roll": "300",
+    "result": "Tanzanite"
+  }
+}

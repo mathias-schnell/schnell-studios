@@ -1,0 +1,50 @@
+{
+  "1": {
+    "roll": "1",
+    "result": "Human"
+  },
+  "2": {
+    "roll": "2",
+    "result": "Elf"
+  },
+  "3": {
+    "roll": "3",
+    "result": "Dwarf"
+  },
+  "4": {
+    "roll": "4",
+    "result": "Halfling"
+  },
+  "5": {
+    "roll": "5",
+    "result": "Gnome"
+  },
+  "6": {
+    "roll": "6",
+    "result": "Half-elf"
+  },
+  "7": {
+    "roll": "7",
+    "result": "Orc"
+  },
+  "8": {
+    "roll": "8",
+    "result": "Half-Orc"
+  },
+  "9": {
+    "roll": "9",
+    "result": "Tiefling"
+  },
+  "10": {
+    "roll": "10",
+    "result": "Goliath"
+  },
+  "11": {
+    "roll": "11",
+    "result": "Genasi"
+  },
+  "12": {
+    "roll": "12",
+    "result": "Dragonborn"
+  }
+}
