@@ -1,0 +1,202 @@
+{
+  "1-2": {
+    "roll": "1-2",
+    "result": "-barrow"
+  },
+  "3-4": {
+    "roll": "3-4",
+    "result": "-bay"
+  },
+  "5-6": {
+    "roll": "5-6",
+    "result": "-bend"
+  },
+  "7-8": {
+    "roll": "7-8",
+    "result": "-bridge"
+  },
+  "9-10": {
+    "roll": "9-10",
+    "result": "-burgh"
+  },
+  "11-12": {
+    "roll": "11-12",
+    "result": "-burough"
+  },
+  "13-14": {
+    "roll": "13-14",
+    "result": "-bury"
+  },
+  "15-16": {
+    "roll": "15-16",
+    "result": "-cliff"
+  },
+  "17-18": {
+    "roll": "17-18",
+    "result": "-crest"
+  },
+  "19-20": {
+    "roll": "19-20",
+    "result": "-cress"
+  },
+  "21-22": {
+    "roll": "21-22",
+    "result": "-dale"
+  },
+  "23-24": {
+    "roll": "23-24",
+    "result": "-don"
+  },
+  "25-26": {
+    "roll": "25-26",
+    "result": "-dorf"
+  },
+  "27-28": {
+    "roll": "27-28",
+    "result": "-end"
+  },
+  "29-30": {
+    "roll": "29-30",
+    "result": "-far"
+  },
+  "31-32": {
+    "roll": "31-32",
+    "result": "-fell"
+  },
+  "33-34": {
+    "roll": "33-34",
+    "result": "-field"
+  },
+  "35-36": {
+    "roll": "35-36",
+    "result": "-ford"
+  },
+  "37-38": {
+    "roll": "37-38",
+    "result": "-gate"
+  },
+  "39-40": {
+    "roll": "39-40",
+    "result": "-grave"
+  },
+  "41-42": {
+    "roll": "41-42",
+    "result": "-guard"
+  },
+  "43-44": {
+    "roll": "43-44",
+    "result": "-hall"
+  },
+  "45-46": {
+    "roll": "45-46",
+    "result": "-haven"
+  },
+  "47-48": {
+    "roll": "47-48",
+    "result": "-helm"
+  },
+  "49-50": {
+    "roll": "49-50",
+    "result": "-hill"
+  },
+  "51-52": {
+    "roll": "51-52",
+    "result": "-holme"
+  },
+  "53-54": {
+    "roll": "53-54",
+    "result": "-land"
+  },
+  "55-56": {
+    "roll": "55-56",
+    "result": "-meet"
+  },
+  "57-58": {
+    "roll": "57-58",
+    "result": "-meadow"
+  },
+  "59-60": {
+    "roll": "59-60",
+    "result": "-mill"
+  },
+  "61-62": {
+    "roll": "61-62",
+    "result": "-moor"
+  },
+  "63-64": {
+    "roll": "63-64",
+    "result": "-mount"
+  },
+  "65-66": {
+    "roll": "65-66",
+    "result": "-point"
+  },
+  "67-68": {
+    "roll": "67-68",
+    "result": "-pool"
+  },
+  "69-70": {
+    "roll": "69-70",
+    "result": "-port"
+  },
+  "71-72": {
+    "roll": "71-72",
+    "result": "-rest"
+  },
+  "73-74": {
+    "roll": "73-74",
+    "result": "-shire"
+  },
+  "75-76": {
+    "roll": "75-76",
+    "result": "-smith"
+  },
+  "77-78": {
+    "roll": "77-78",
+    "result": "-song"
+  },
+  "79-80": {
+    "roll": "79-80",
+    "result": "-spring"
+  },
+  "81-82": {
+    "roll": "81-82",
+    "result": "-stead"
+  },
+  "83-84": {
+    "roll": "83-84",
+    "result": "-stow"
+  },
+  "85-86": {
+    "roll": "85-86",
+    "result": "-tree"
+  },
+  "87-88": {
+    "roll": "87-88",
+    "result": "-town"
+  },
+  "89-90": {
+    "roll": "89-90",
+    "result": "-view"
+  },
+  "91-92": {
+    "roll": "91-92",
+    "result": "-wall"
+  },
+  "93-94": {
+    "roll": "93-94",
+    "result": "-watch"
+  },
+  "95-96": {
+    "roll": "95-96",
+    "result": "-well"
+  },
+  "97-98": {
+    "roll": "97-98",
+    "result": "-wich"
+  },
+  "99-100": {
+    "roll": "99-00",
+    "result": "-wood"
+  }
+}

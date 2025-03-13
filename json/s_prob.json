@@ -1,0 +1,202 @@
+{
+  "1-2": {
+    "roll": "1-2",
+    "result": "The food source is close to running out."
+  },
+  "3-4": {
+    "roll": "3-4",
+    "result": "A powerful lich has made his lair nearby."
+  },
+  "5-6": {
+    "roll": "5-6",
+    "result": "A sinkhole has formed in the settlement."
+  },
+  "7-8": {
+    "roll": "7-8",
+    "result": "The settlement graveyard has been robbed."
+  },
+  "9-10": {
+    "roll": "9-10",
+    "result": "Religious citizens are vanishing."
+  },
+  "11-12": {
+    "roll": "11-12",
+    "result": "Bandits control the roads leading to the town."
+  },
+  "13-14": {
+    "roll": "13-14",
+    "result": "Barbarians are constantly invading."
+  },
+  "15-16": {
+    "roll": "15-16",
+    "result": "A horrible disease has plagued the town."
+  },
+  "17-18": {
+    "roll": "17-18",
+    "result": "A dragon frequently attacks the settlement."
+  },
+  "19-20": {
+    "roll": "19-20",
+    "result": "The settlement is prone to bad flooding."
+  },
+  "21-22": {
+    "roll": "21-22",
+    "result": "A foreign empire wants to capture this place."
+  },
+  "23-24": {
+    "roll": "23-24",
+    "result": "An ogre has been seen outsite the settlement."
+  },
+  "25-26": {
+    "roll": "25-26",
+    "result": "The ruler's heir is deathly ill."
+  },
+  "27-28": {
+    "roll": "27-28",
+    "result": "A massive creature sleeps beneath the town."
+  },
+  "29-30": {
+    "roll": "29-30",
+    "result": "An arsonist is setting fires to the buildings."
+  },
+  "31-32": {
+    "roll": "31-32",
+    "result": "Giants are trying to steal the town's cattle."
+  },
+  "33-34": {
+    "roll": "33-34",
+    "result": "A secret cult has made their lair here."
+  },
+  "35-36": {
+    "roll": "35-36",
+    "result": "Fey magic makes this settlement hard to find."
+  },
+  "37-38": {
+    "roll": "37-38",
+    "result": "A demigod demands a sacrifice every month."
+  },
+  "39-40": {
+    "roll": "39-40",
+    "result": "Tribes of goblins attack people on the roads."
+  },
+  "41-42": {
+    "roll": "41-42",
+    "result": "The ruler is a doppleganger."
+  },
+  "43-44": {
+    "roll": "43-44",
+    "result": "A bard is spreading lies about this town."
+  },
+  "45-46": {
+    "roll": "45-46",
+    "result": "A necromancer is building a castle nearby."
+  },
+  "47-48": {
+    "roll": "47-48",
+    "result": "A nearby volcano will be erupting soon."
+  },
+  "49-50": {
+    "roll": "49-50",
+    "result": "A massive flood will be here soon."
+  },
+  "51-52": {
+    "roll": "51-52",
+    "result": "An angry god demands tribute."
+  },
+  "53-54": {
+    "roll": "53-54",
+    "result": "Pillagers raid this settlement weekly."
+  },
+  "55-56": {
+    "roll": "55-56",
+    "result": "A massive cave was discovered nearby."
+  },
+  "57-58": {
+    "roll": "57-58",
+    "result": "The forest ents are angry at this settlement."
+  },
+  "59-60": {
+    "roll": "59-60",
+    "result": "Slave traders are capturing citizens."
+  },
+  "61-62": {
+    "roll": "61-62",
+    "result": "The ruler has banned the color red."
+  },
+  "63-64": {
+    "roll": "63-64",
+    "result": "The ruler was just assasinated."
+  },
+  "65-66": {
+    "roll": "65-66",
+    "result": "A druid is awakening the settlement's trees."
+  },
+  "67-68": {
+    "roll": "67-68",
+    "result": "The town's water supply has been poisoned."
+  },
+  "69-70": {
+    "roll": "69-70",
+    "result": "Citizens keep forgetting where they are."
+  },
+  "71-72": {
+    "roll": "71-72",
+    "result": "The dead are coming back to life."
+  },
+  "73-74": {
+    "roll": "73-74",
+    "result": "An eldritch horror lives below the settlement."
+  },
+  "75-76": {
+    "roll": "75-76",
+    "result": "An enemy city is attacking soon."
+  },
+  "77-78": {
+    "roll": "77-78",
+    "result": "The town is severely haunted by ghosts."
+  },
+  "79-80": {
+    "roll": "79-80",
+    "result": "The guards is incredibly strict."
+  },
+  "81-82": {
+    "roll": "81-82",
+    "result": "The town's water source has dried up."
+  },
+  "83-84": {
+    "roll": "83-84",
+    "result": "The ruler is secretly a vampire lord."
+  },
+  "85-86": {
+    "roll": "85-86",
+    "result": "The bakery is run by a horrible hag."
+  },
+  "87-88": {
+    "roll": "87-88",
+    "result": "Pirate lords have taken a part of it."
+  },
+  "89-90": {
+    "roll": "89-90",
+    "result": "The ruler is insane and tyrannical."
+  },
+  "91-92": {
+    "roll": "91-92",
+    "result": "A serial killer is on the loose in the town."
+  },
+  "93-94": {
+    "roll": "93-94",
+    "result": "The whole settlement is secretly a cult."
+  },
+  "95-96": {
+    "roll": "95-96",
+    "result": "Lower class citizens are rioting."
+  },
+  "97-98": {
+    "roll": "97-98",
+    "result": "An animal is on the loose in the settlement."
+  },
+  "99-100": {
+    "roll": "99-100",
+    "result": "An ancient city was found beneath the town."
+  }
+}

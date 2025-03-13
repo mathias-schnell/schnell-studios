@@ -1,0 +1,137 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" style="width:100%; height:100%;">
+<head>
+	<title>Node Map</title>
+	<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+	<meta name="generator" content="Geany 0.20" />
+	<link rel="shortcut icon" href="img/fleur.ico" />
+	<link rel="stylesheet" href="css/reset.css" type="text/css" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/vis/4.7.0/vis.min.css" type="text/css" />
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/vis/4.7.0/vis.min.js"></script>
+</head>
+<body style="width:100%; height:100%;">
+	<div id="mynetwork" style="width:100%; height:100%;">		
+	</div>
+	<script type="text/javascript">
+		// create an array with nodes
+		var nodes = new vis.DataSet([
+			{id: 1, 	group: "Blizzard", 	mass: 4, value: 4, title: "Heroes of the Storm", 	image:"http://ScrewAttack.net/wordpress/wp-content/uploads/2015/03/Heroes_of_the_Storm_logo.png"},
+			{id: 2, 	group: "Blizzard", 	mass: 2, value: 2, title: "Warcraft", 				image:"http://ScrewAttack.net/wordpress/wp-content/uploads/2015/03/orc-box-art.jpg"},
+			{id: 3, 	group: "Blizzard", 	mass: 1, value: 1, title: "Diablo", 				image:"http://ScrewAttack.net/wordpress/wp-content/uploads/2015/03/diablo_3_movie.jpg"},
+			{id: 4, 	group: "Blizzard", 	mass: 3, value: 3, title: "The Lost Vikings", 		image:"http://ScrewAttack.net/wordpress/wp-content/uploads/2015/03/LostVikingsPic-article_image.jpg"},
+			{id: 5, 	group: "Blizzard", 	mass: 1, value: 1, title: "Starcraft", 				image:"http://ScrewAttack.net/wordpress/wp-content/uploads/2015/03/293345-alexfas01.jpg"},
+			{id: 6, 	group: "Blizzard", 	mass: 1, value: 1, title: "Blackthorne", 			image:"http://ScrewAttack.net/wordpress/wp-content/uploads/2015/03/240px-KyleBlackthorneArt.jpg"},
+			{id: 7, 	group: "Blizzard", 	mass: 1, value: 1, title: "Rock n' Roll Racing", 	image:"http://ScrewAttack.net/wordpress/wp-content/uploads/2015/03/rrr1.jpg"},
+			{id: 8, 	group: "Nintendo", 	mass: 7, value: 7, title: "Super Smash Bros.", 		image:"http://ScrewAttack.net/wordpress/wp-content/uploads/2015/03/SuperSmashBrosWallpaper1024.jpg"},
+			{id: 9, 	group: "Nintendo", 	mass: 1, value: 1, title: "The Legend of Zelda", 	image:"http://ScrewAttack.net/wordpress/wp-content/uploads/2015/03/21323_zelda_legend_of_zelda.jpg"},
+			{id: 10, 	group: "Nintendo", 	mass: 1, value: 1, title: "Mario", 					image:"http://ScrewAttack.net/wordpress/wp-content/uploads/2015/03/super-mario-galaxy-2-wii-hd-wallpapers.jpg"},
+			{id: 11, 	group: "Nintendo", 	mass: 1, value: 1, title: "Metroid", 				image:"http://img3.wikia.nocookie.net/__cb20130504181924/gamingdatabase/images/2/25/Metroid_logo.png"},
+			{id: 12, 	group: "Nintendo", 	mass: 1, value: 1, title: "Mother", 				image:"http://orig02.deviantart.net/1afa/f/2010/044/a/3/mother_earthbound_logo_by_ultamitelifeform360.jpg"},
+			{id: 13, 	group: "Nintendo", 	mass: 1, value: 1, title: "Pokemon", 				image:"https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/English_Pok%C3%A9mon_logo.svg/2000px-English_Pok%C3%A9mon_logo.svg.png"},
+			{id: 14, 	group: "Nintendo", 	mass: 1, value: 1, title: "Fire Emblem", 			image:"http://img4.wikia.nocookie.net/__cb20141026003146/fictionalcrossover/images/4/4c/A_Fire_Emblem_logo.jpg"},
+			{id: 15, 	group: "Capcom", 	mass: 4, value: 4, title: "Project X Zone", 		image:"http://vignette1.wikia.nocookie.net/tekken/images/6/67/Project-X-Zone-logo.jpg/revision/latest?cb=20130418231627&path-prefix=en"},
+			{id: 16, 	group: "Capcom", 	mass: 2, value: 2, title: "Mega Man X", 			image:"http://nfgworld.com/grafx/games/MegaManX1.png"},
+			{id: 17, 	group: "Capcom", 	mass: 1, value: 1, title: "Mega Man", 				image:"http://vignette1.wikia.nocookie.net/megaman/images/8/83/Mmlogo1.png/revision/latest?cb=20070331121043"},
+			{id: 18, 	group: "Capcom", 	mass: 1, value: 1, title: "Devil May Cry", 			image:"http://img2.wikia.nocookie.net/__cb20140224202832/logopedia/images/d/d0/830px-DMCLogocopyag30fm4dn3ss.png"},
+			{id: 19, 	group: "Capcom", 	mass: 1, value: 1, title: "Dead Rising", 			image:"https://upload.wikimedia.org/wikipedia/en/3/31/Dead_Rising_logo.png"},
+			{id: 20, 	group: "Capcom", 	mass: 1, value: 1, title: "Street Fighter", 		image:"https://upload.wikimedia.org/wikipedia/en/e/e9/Street_Fighter_Logo.png"},
+		]);
+
+		// create an array with edges
+		var edges = new vis.DataSet([
+			{from: 1, to: 2},
+			{from: 1, to: 3},
+			{from: 1, to: 4},
+			{from: 1, to: 5},
+			{from: 4, to: 6},
+			{from: 4, to: 2},
+			{from: 4, to: 7},
+			{from: 8, to: 9},
+			{from: 8, to: 10},
+			{from: 8, to: 11},
+			{from: 8, to: 12},
+			{from: 8, to: 13},
+			{from: 8, to: 14},
+			{from: 8, to: 14},
+			{from: 15, to: 16},
+			{from: 15, to: 18},
+			{from: 15, to: 19},
+			{from: 15, to: 20},
+			{from: 16, to: 17},
+			{from: 17, to: 8},
+		]);
+
+		// create a network
+		var container = document.getElementById('mynetwork');
+		var data = {
+			nodes: nodes,
+			edges: edges,
+		};		
+		var options = {			
+			edges: {
+				hoverWidth: 0,
+				smooth: false,
+			},
+			groups: {
+				Blizzard: {
+					color: {
+						border: 'green',
+						background: 'white',
+						hover: {
+							border: 'green',
+							background: 'green',
+						},
+					},
+				},
+				Capcom: {
+					color: {
+						border: 'blue',
+						background: 'white',
+						hover: {
+							border: 'blue',
+							background: 'blue',
+						},
+					},
+				},				
+				Nintendo: {
+					color: {
+						border: 'red',
+						background: 'white',
+						hover: {
+							border: 'red',
+							background: 'red',
+						},
+					},
+				},
+			},
+			nodes: {
+				scaling: {
+					min: 30,
+					max: 60,
+				},
+				shape: "circularImage"
+			},
+			interaction: {
+				dragNodes: false,			
+				hover: true,
+				hoverConnectedEdges: false,
+				navigationButtons: true,
+				selectConnectedEdges: false,
+				tooltipDelay: 0,			
+			},
+			physics: {				
+				repulsion: {
+					centralGravity: 0.3,
+					springLength: 100,
+					springConstant: 0.1,
+					nodeDistance: 200
+				},
+				solver: 'repulsion',
+				minVelocity: 1,
+				maxVelocity: 50,
+			},		
+		};
+		var network = new vis.Network(container, data, options);
+	</script>
+</body>
+</html>

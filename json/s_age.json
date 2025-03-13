@@ -1,0 +1,32 @@
+{
+  "1": {
+    "roll": "1",
+    "result": "Temporary",
+    "description": "This settlement is not meant to last. Perhaps the inhabitants constructed it to obtain a quick resource, used it while their real settlement was being built, or maybe this settlement was built by refugees from a destroyed settlement. All of the buildings in this settlement are thrown together."
+  },
+  "2": {
+    "roll": "2",
+    "result": "New",
+    "description": "This settlement is less than 50 years old. It has just recently popped up and is still trying to catch it's bearings. All of the buildings are newish, with more being built when the time comes. This settlement was built to last, so the citizens are building their structures with good materials."
+  },
+  "3": {
+    "roll": "3",
+    "result": "Young",
+    "description": "This settlement is less than 100 years old, but older than 50 years old. This young settlement is still getting it's footing. They may have a few established businesses or schools, and travelers from far away may have heard about it in passing."
+  },
+  "4": {
+    "roll": "4",
+    "result": "Up and Coming",
+    "description": "This settlement is a century old and reaching its prime. Many people in the realm seek to start a new life here because of all the amazing opprotunities that are sprouting up here. Business is booming!"
+  },
+  "5": {
+    "roll": "5",
+    "result": "Old",
+    "description": "This settlement is between 1,000 and 2,000 years old. This is a VERY well established settlement and has been around for as long as anyone can remember. Most of the buildings in this settlement are from the modern age, with very few buildings from previous ages, because they are being remodeled all the time. Many, many people know about this settlement."
+  },
+  "6": {
+    "roll": "6",
+    "result": "Ancient",
+    "description": "This settlement is over 2,000 years old. There are structures here that are from ages past. Everyone and their mother has heard of this place, and there are countless songs and stories about it throughout history. This settlement may have a source of magic that is keeping it around for so long, such as a deity watching over it."
+  }
+}

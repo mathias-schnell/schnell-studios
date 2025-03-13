@@ -1,0 +1,58 @@
+{
+  "1": {
+    "roll": "1",
+    "result": "Thorp",
+    "population": "20-80",
+    "businesses": "0",
+    "govt": "No"
+  },
+  "2": {
+    "roll": "2",
+    "result": "Hamlet",
+    "population": "81-400",
+    "businesses": "1-2",
+    "govt": "No"
+  },
+  "3": {
+    "roll": "3",
+    "result": "Village",
+    "population": "401-900",
+    "businesses": "2-3",
+    "govt": "Sometimes"
+  },
+  "4": {
+    "roll": "4",
+    "result": "Small Town",
+    "population": "901-2000",
+    "businesses": "3-4",
+    "govt": "Yes"
+  },
+  "5": {
+    "roll": "5",
+    "result": "Large Town",
+    "population": "2001-5000",
+    "businesses": "5-8",
+    "govt": "Yes"
+  },
+  "6": {
+    "roll": "6",
+    "result": "Small City",
+    "population": "5001-12000",
+    "businesses": "10-20",
+    "govt": "Yes"
+  },
+  "7": {
+    "roll": "7",
+    "result": "Large City",
+    "population": "12001-25000",
+    "businesses": "25+",
+    "govt": "Yes"
+  },
+  "8": {
+    "roll": "8",
+    "result": "Metropolis",
+    "population": "25001+",
+    "businesses": "40+",
+    "govt": "Yes"
+  }
+}

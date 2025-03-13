@@ -1,0 +1,811 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<title>CSS3 Pokeballs</title>
+	<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+	<meta name="generator" content="Geany 0.20" />
+	<link rel="shortcut icon" href="img/fleur.ico" />
+	<link rel="stylesheet" href="css/reset.css" type="text/css" />	
+</head>
+<body>
+	<style>
+		div.ball {
+			float: left;
+			height: 100px;
+			width: 100px;			
+			margin: 40px;
+			position: relative;
+			
+			border-radius: 50px;
+			border: 1px solid #333333;				
+		}
+		
+		div.ball > div.coverup {			
+			background: transparent;
+			height: 102px;
+			width: 102px;			
+			border-radius: 100px;
+			border: 40px solid white;
+			position: absolute;
+			top: -41px;
+			left: -41px;
+		}
+		
+		#pokeball {
+			background-image: 
+				linear-gradient(to left, #f15b38, #f15b38),
+				linear-gradient(to left, #dee1e9, #dee1e9);
+			background-repeat: no-repeat;
+			background-position: 0 0, 0 50px;
+			background-size: 100% 50px, 100% 50px;
+		}
+		
+		#greatball {
+			background-image: 
+				linear-gradient(to left, #457de5, #457de5),
+				linear-gradient(to left, #dee1e9, #dee1e9);
+			background-repeat: no-repeat;
+			background-position: 0 0, 0 50px;
+			background-size: 100% 50px, 100% 50px;
+		}
+		
+		#greatball:before {						
+			content: "";
+			position: absolute;
+			background: #e94646;
+			width: 30px;
+			height: 15px;						
+			-webkit-transform: rotate(40deg);
+			-moz-transform: rotate(40deg);
+			-ms-transform: rotate(40deg);
+			-o-transform: rotate(40deg);
+			top: 18px;
+			left: 5px;
+		}
+		
+		#greatball:after {						
+			content: "";
+			position: absolute;
+			background: #e94646;
+			width: 30px;
+			height: 15px;
+			-webkit-transform: rotate(140deg);
+			-moz-transform: rotate(140deg);
+			-ms-transform: rotate(140deg);
+			-o-transform: rotate(140deg);
+			top: 18px;
+			left: 65px;
+		}
+		
+		#ultraball {
+			background-image: 
+				linear-gradient(to left, #222222, #222222),
+				linear-gradient(to left, #dee1e9, #dee1e9);
+			background-repeat: no-repeat;
+			background-position: 0 0, 0 50px;
+			background-size: 100% 50px, 100% 50px;
+		}
+		
+		#ultraball:before {						
+			content: "";
+			position: absolute;
+			background: #222222;
+			width: 35px;
+			height: 40px;
+			left: 18px;
+			top: 0px;
+			border-radius: 27px 27px 0 0;
+			border-color: #ffe033;
+			border-width: 15px 15px 0 15px;
+			border-style: solid;
+		}
+		
+		#masterball {
+			text-align: center;
+			color: white;
+			font-size: 18px;
+			font-family: cursive;	
+			
+			background-image: 
+				linear-gradient(to left, #7e308e, #7e308e),
+				linear-gradient(to left, #dee1e9, #dee1e9);
+			background-repeat: no-repeat;
+			background-position: 0 0, 0 50px;
+			background-size: 100% 50px, 100% 50px;
+		}
+		
+		#masterball .balltext {
+			padding-top: 18px;
+		}
+		
+		#masterball:before {						
+			content: "";
+			position: absolute;
+			background: #d12a91;
+			width: 40px;
+			height: 20px;
+			-moz-border-radius: 20px / 10px;
+			-webkit-border-radius: 20px / 10px;
+			border-radius: 20px / 10px;
+			-webkit-transform: rotate(45deg);
+			-moz-transform: rotate(45deg);
+			-ms-transform: rotate(45deg);
+			-o-transform: rotate(45deg);
+			left: 61px;
+			top: 8px;
+		}
+		
+		#masterball:after {						
+			content: "";
+			position: absolute;
+			background: #d12a91;
+			width: 40px;
+			height: 20px;
+			-moz-border-radius: 20px / 10px;
+			-webkit-border-radius: 20px / 10px;
+			border-radius: 20px / 10px;
+			-webkit-transform: rotate(135deg);
+			-moz-transform: rotate(135deg);
+			-ms-transform: rotate(135deg);
+			-o-transform: rotate(135deg);
+			left: -1px;
+			top: 8px;
+		}
+		
+		#premierball {
+			background-image: 
+				linear-gradient(to left, #f8f8f8, #f8f8f8),
+				linear-gradient(to left, #f8f8f8, #f8f8f8);
+			background-repeat: no-repeat;
+			background-position: 0 0, 0 50px;
+			background-size: 100% 50px, 100% 50px;			
+		}
+		
+		#levelball {
+			background-image: 
+				linear-gradient(to left, #111111, #111111),
+				linear-gradient(to left, #f5d617, #f5d617),
+				linear-gradient(to left, #dee1e9, #dee1e9);
+			background-repeat: no-repeat;
+			background-position: 0 0, 0 20px, 0 50px;
+			background-size: 100% 20px, 100% 30px, 100% 50px;
+		}
+		
+		#levelball:before {						
+			content: "";
+			position: absolute;
+			background: #d34635;
+			width: 28px;
+			height: 10px;						
+			-webkit-transform: rotate(45deg);
+			-moz-transform: rotate(45deg);
+			-ms-transform: rotate(45deg);
+			-o-transform: rotate(45deg);
+			top: 15px;
+			left: 30px;
+		}
+		
+		#levelball:after {						
+			content: "";
+			position: absolute;
+			background: #d34635;
+			width: 28px;
+			height: 10px;
+			-webkit-transform: rotate(135deg);
+			-moz-transform: rotate(135deg);
+			-ms-transform: rotate(135deg);
+			-o-transform: rotate(135deg);
+			top: 15px;
+			left: 43px;
+		}
+		
+		#lureball {
+			background-image: 
+				linear-gradient(to left, #49b0be, #49b0be),
+				linear-gradient(to left, #dee1e9, #dee1e9);
+			background-repeat: no-repeat;
+			background-position: 0 0, 0 50px;
+			background-size: 100% 50px, 100% 50px;
+		}
+		
+		#lureball:before {
+			content: "";
+			position: absolute;
+			background: #d45e69;
+			width: 40px;
+			height: 40px;
+			-webkit-transform: rotate(45deg);
+			-moz-transform: rotate(45deg);
+			-ms-transform: rotate(45deg);
+			-o-transform: rotate(45deg);
+			top: 5px;
+			left: 30px;
+		}
+		
+		#lureball .deco1 {
+			content: "";
+			position: absolute;
+			background: #d45e69;
+			width: 40px;
+			height: 40px;
+			-webkit-transform: rotate(45deg);
+			-moz-transform: rotate(45deg);
+			-ms-transform: rotate(45deg);
+			-o-transform: rotate(45deg);
+			top: -30px;
+			left: 30px;
+		}
+		
+		#lureball .deco2 {
+			content: "";
+			position: absolute;
+			background: #fcc938;			
+			height: 3px;
+			width: 20px;
+			-webkit-transform: rotate(90deg);
+			-moz-transform: rotate(90deg);
+			-ms-transform: rotate(90deg);
+			-o-transform: rotate(90deg);
+			top: 23px;
+			left: 32px;		
+		}
+		
+		#lureball .deco3 {
+			content: "";
+			position: absolute;
+			background: #fcc938;
+			height: 3px;
+			width: 20px;
+			-webkit-transform: rotate(90deg);
+			-moz-transform: rotate(90deg);
+			-ms-transform: rotate(90deg);
+			-o-transform: rotate(90deg);
+			top: 23px;
+			left: 40px;
+		}
+		
+		#lureball .deco4 {
+			content: "";
+			position: absolute;
+			background: #fcc938;
+			height: 3px;
+			width: 20px;
+			-webkit-transform: rotate(90deg);
+			-moz-transform: rotate(90deg);
+			-ms-transform: rotate(90deg);
+			-o-transform: rotate(90deg);
+			top: 23px;
+			left: 48px;
+		}
+		
+		#quickball {
+			background-image: 
+				linear-gradient(to left, #3B82C4, #3B82C4);
+			background-repeat: no-repeat;
+			background-position: 0 0;
+			background-size: 100% 100%;
+		}
+		
+		#quickball .deco1 {
+			content: "";
+			position: absolute;
+			background: #EFEA28;
+			height: 45px;
+			width: 45px;
+			-webkit-transform: rotate(45deg);
+			-moz-transform: rotate(45deg);
+			-ms-transform: rotate(45deg);
+			-o-transform: rotate(45deg);
+			top: 28px;
+			left: 28px;
+		}
+		
+		#quickball .deco2 {
+			content: "";
+			position: absolute;
+			background: #EFEA28;
+			height: 110px;
+			width: 20px;
+			-webkit-transform: rotate(45deg);
+			-moz-transform: rotate(45deg);
+			-ms-transform: rotate(45deg);
+			-o-transform: rotate(45deg);
+			top: -5px;
+			left: 40px;
+		}
+		
+		#quickball .deco3 {
+			content: "";
+			position: absolute;
+			background: #EFEA28;
+			height: 110px;
+			width: 20px;
+			-webkit-transform: rotate(135deg);
+			-moz-transform: rotate(135deg);
+			-ms-transform: rotate(135deg);
+			-o-transform: rotate(135deg);
+			top: -5px;
+			left: 40px;
+		}
+		
+		#duskball {
+			background-image: 
+				linear-gradient(to left, #4F4B47, #4F4B47);
+			background-repeat: no-repeat;
+			background-position: 0 0;
+			background-size: 100% 100%;
+		}
+		
+		#duskball .deco1 {
+			content: "";
+			position: absolute;
+			background: #30A246;
+			height: 55px;
+			width: 55px;
+			-moz-border-radius: 50px;
+			-webkit-border-radius: 50px;
+			border-radius: 50px;
+			top: 23px;
+			left: 23px;	
+		}
+		
+		#duskball .deco2 {
+			content: "";
+			position: absolute;
+			background: #30A246;
+			height: 50px;
+			width: 50px;
+			-moz-border-radius: 50px;
+			-webkit-border-radius: 50px;
+			border-radius: 50px;
+			top: -35px;
+			left: 25px;	
+		}
+		
+		#duskball .deco3 {
+			content: "";
+			position: absolute;
+			background: #30A246;
+			height: 50px;
+			width: 50px;
+			-moz-border-radius: 50px;
+			-webkit-border-radius: 50px;
+			border-radius: 50px;
+			top: 25px;
+			left: -35px;	
+		}
+		
+		#duskball .deco4 {
+			content: "";
+			position: absolute;
+			background: #30A246;
+			height: 50px;
+			width: 50px;
+			-moz-border-radius: 50px;
+			-webkit-border-radius: 50px;
+			border-radius: 50px;
+			top: 25px;
+			left: 85px;	
+		}
+		
+		#duskball .deco5 {
+			content: "";
+			position: absolute;
+			background: #30A246;
+			height: 50px;
+			width: 50px;
+			-moz-border-radius: 50px;
+			-webkit-border-radius: 50px;
+			border-radius: 50px;
+			top: 85px;
+			left: 25px;	
+		}
+		
+		#moonball {
+			background-image: 
+				linear-gradient(to left, #49b0be, #49b0be),
+				linear-gradient(to left, #222222, #222222),
+				linear-gradient(to left, #dee1e9, #dee1e9);
+			background-repeat: no-repeat;
+			background-position: 0 0, 50px 0, 0 50px;
+			background-size: 50px 50px, 50px 50px, 100% 50px;
+		}
+		
+		#moonball .deco1 {
+			content: "";
+			position: absolute;
+			background: #49b0be;
+			height: 8px;
+			width: 8px;
+			-webkit-transform: rotate(45deg);
+			-moz-transform: rotate(45deg);
+			-ms-transform: rotate(45deg);
+			-o-transform: rotate(45deg);
+			top: 29px;
+			left: 45px;
+		}
+		
+		#moonball .deco2 {
+			content: "";
+			position: absolute;
+			background: #222222;
+			height: 8px;
+			width: 8px;
+			-webkit-transform: rotate(45deg);
+			-moz-transform: rotate(45deg);
+			-ms-transform: rotate(45deg);
+			-o-transform: rotate(45deg);
+			top: 20px;
+			left: 47px;
+		}
+		
+		#moonball .deco3 {
+			content: "";
+			position: absolute;
+			background: #49b0be;
+			height: 8px;
+			width: 8px;
+			-webkit-transform: rotate(45deg);
+			-moz-transform: rotate(45deg);
+			-ms-transform: rotate(45deg);
+			-o-transform: rotate(45deg);
+			top: 11px;
+			left: 45px;
+		}
+		
+		#moonball .deco4 {
+			content: "";
+			position: absolute;
+			background: #e9c241;
+			height: 50px;
+			width: 50px;
+			border-radius: 25px;
+			top: -30px;
+			left: 25px;
+		}
+		
+		#moonball .deco5 {
+			content: "";
+			position: absolute;
+			background: #222222;
+			height: 33px;
+			width: 33px;
+			border-radius: 25px;
+			top: -20px;
+			left: 43px;
+		}
+		
+		#repeatball {
+			background-image: 
+				linear-gradient(to left, #f15b38, #f15b38),
+				linear-gradient(to left, #dee1e9, #dee1e9);
+			background-repeat: no-repeat;
+			background-position: 0 0, 0 50px;
+			background-size: 100% 50px, 100% 50px;
+		}
+		
+		#repeatball:after {
+			background-image:
+				linear-gradient(to left, #dee1e9, #dee1e9);
+			background-repeat: no-repeat;
+			background-position: 0 50px;
+			background-size: 100% 50px;
+		}
+		
+		#repeatball .deco1 {
+			content: "";
+			position: absolute;
+			background-image:
+				linear-gradient(to left, #f2e635, #f2e635);
+			background-repeat: no-repeat;
+			background-position: 0 0;
+			background-size: 100% 25px;
+			width: 60px;
+			height: 50px;
+			border-radius: 60px / 50px;
+			top: 26px;
+			left: 21px;
+		}
+		
+		#repeatball .deco2 {
+			content: "";
+			position: absolute;
+			background: #f2e635;			
+			width: 50px;
+			height: 30px;
+			border-radius: 50px / 30px;
+			top: 0px;
+			left: 25px;
+		}
+		
+		#repeatball .deco3 {
+			content: "";
+			position: absolute;
+			background: #999797;			
+			width: 30px;
+			height: 18px;
+			border-radius: 30px / 18px;
+			top: 5px;
+			left: 35px;
+		}
+		
+		#heavyball {
+			background-image: 
+				linear-gradient(to left, #909399, #909399),
+				linear-gradient(to left, #dee1e9, #dee1e9);
+			background-repeat: no-repeat;
+			background-position: 0 0, 0 50px;
+			background-size: 100% 50px, 100% 50px;
+		}
+		
+		#heavyball .deco1 {
+			content: "";
+			position: absolute;
+			left: 23px;
+			top: 23px;
+			background: #3556a0;
+			width: 15px;
+			height: 15px;
+			border-radius: 15px;
+			border: 1px solid #222222;
+		}
+		
+		#heavyball .deco2 {
+			content: "";
+			position: absolute;
+			left: 61px;
+			top: 23px;
+			background: #3556a0;
+			width: 15px;
+			height: 15px;
+			border-radius: 15px;
+			border: 1px solid #222222;
+		}
+		
+		#heavyball .deco3 {						
+			content: "";
+			position: absolute;
+			background: #5877ba;
+			width: 30px;
+			height: 15px;
+			-moz-border-radius: 20px / 10px;
+			-webkit-border-radius: 20px / 10px;
+			border: 1px solid #222222;
+			border-radius: 20px / 10px;
+			-webkit-transform: rotate(60deg);
+			-moz-transform: rotate(60deg);
+			-ms-transform: rotate(60deg);
+			-o-transform: rotate(60deg);
+			left: 74px;
+			top: 14px;
+		}
+		
+		#heavyball .deco4 {						
+			content: "";
+			position: absolute;
+			background: #5877ba;
+			width: 30px;
+			height: 15px;
+			-moz-border-radius: 20px / 10px;
+			-webkit-border-radius: 20px / 10px;
+			border: 1px solid #222222;
+			border-radius: 20px / 10px;
+			-webkit-transform: rotate(120deg);
+			-moz-transform: rotate(120deg);
+			-ms-transform: rotate(120deg);
+			-o-transform: rotate(120deg);
+			left: -5px;
+			top: 14px;
+		}
+		
+		.pokebutton {
+			position: absolute;
+			top: 47px;
+			left: 0;			
+			background: #333333;
+			width: 100%;
+			height: 8px;
+		}
+				
+		.pokebutton:before {
+			content: "";
+			position: absolute;			
+			left: 36px;
+			top: -10px;
+			background: #eeeeee;
+			border: 5px solid #333333;
+			border-radius: 100%;
+			width: 19px;
+			height: 19px;
+		}
+		
+		.pokebutton:after {
+			content: "";
+			position: absolute;			
+			left: 44px;
+			top: -2px;
+			border-radius: 100%;
+			border-style: solid;
+			border-color: black;
+			border-width: 1px;			
+			width: 11px;
+			height: 11px;
+		}		
+		
+		.pokebutton_thin {
+			position: absolute;
+			top: 48px;
+			left: 0;			
+			background: #333333;
+			width: 100%;
+			height: 6px;
+		}
+		
+		.pokebutton_thin:before {
+			content: "";
+			position: absolute;			
+			left: 36px;
+			top: -11px;
+			background: #eeeeee;
+			border: 5px solid #333333;
+			border-radius: 100%;
+			width: 19px;
+			height: 19px;
+		}
+		
+		.pokebutton_thin:after {
+			content: "";
+			position: absolute;			
+			left: 44px;
+			top: -3px;
+			border-radius: 100%;
+			border-style: solid;
+			border-color: black;
+			border-width: 1px;			
+			width: 11px;
+			height: 11px;
+		}
+		
+		.pokebutton_premier {
+			position: absolute;
+			top: 47px;
+			left: 0;			
+			background: red;
+			width: 100%;
+			height: 8px;
+		}
+		
+		.pokebutton_premier:before {
+			content: "";
+			position: absolute;			
+			left: 36px;
+			top: -10px;
+			background: #eeeeee;
+			border: 5px solid red;
+			border-radius: 100%;
+			width: 19px;
+			height: 19px;
+		}
+		
+		.pokebutton_premier:after {
+			content: "";
+			position: absolute;			
+			left: 44px;
+			top: -2px;
+			border-radius: 100%;
+			border-style: solid;
+			border-color: black;
+			border-width: 1px;			
+			width: 11px;
+			height: 11px;
+		}
+		
+		.pokebutton_dusk {
+			position: absolute;
+			top: 47px;
+			left: 0;			
+			background: #ED6D19;
+			width: 101%;
+			height: 8px;
+		}
+		
+		.pokebutton_dusk:before {
+			content: "";
+			position: absolute;			
+			left: 36px;
+			top: -10px;
+			background: #ED6D19;
+			border: 5px solid #ED6D19;
+			border-radius: 100%;
+			width: 19px;
+			height: 19px;
+		}
+		
+		.pokebutton_dusk:after {
+			content: "";
+			position: absolute;			
+			left: 44px;
+			top: -2px;
+			border-radius: 100%;
+			border-style: solid;
+			border-color: black;
+			border-width: 1px;			
+			width: 11px;
+			height: 11px;
+		}
+	</style>
+	<div id='pokeball' class='ball'>
+		<div class='pokebutton'></div>
+		<div class='coverup'></div>
+	</div>
+	<div id='greatball' class='ball'>
+		<div class='pokebutton'></div>
+	</div>
+	<div id='ultraball' class='ball'>
+		<div class='pokebutton'></div>
+		<div class='coverup'></div>
+	</div>
+	<div id='masterball' class='ball'>
+		<p class='balltext'>M</p>
+		<div class='pokebutton'></div>
+	</div>
+	<br style='clear:both;' />
+	<div id='levelball' class='ball'>
+		<div class='pokebutton_thin'></div>
+		<div class='coverup'></div>
+	</div>
+	<div id='lureball' class='ball'>
+		<div class='deco1'></div>
+		<div class='deco2'></div>
+		<div class='deco3'></div>
+		<div class='deco4'></div>
+		<div class='pokebutton_thin'></div>
+		<div class='coverup'></div>
+	</div>
+	<div id='premierball' class='ball'>		
+		<div class='pokebutton_premier'></div>
+		<div class='coverup'></div>
+	</div>
+	<div id='quickball' class='ball'>
+		<div class='deco1'></div>
+		<div class='deco2'></div>
+		<div class='deco3'></div>
+		<div class='pokebutton'></div>
+		<div class='coverup'></div>
+	</div>
+	<br style='clear:both;' />
+	<div id='duskball' class='ball'>
+		<div class='deco1'></div>
+		<div class='deco2'></div>
+		<div class='deco3'></div>
+		<div class='deco4'></div>
+		<div class='deco5'></div>
+		<div class='pokebutton_dusk'></div>
+		<div class='coverup'></div>
+	</div>
+	<div id='moonball' class='ball'>
+		<div class='deco1'></div>
+		<div class='deco2'></div>
+		<div class='deco3'></div>
+		<div class='deco4'></div>
+		<div class='deco5'></div>
+		<div class='pokebutton_thin'></div>
+		<div class='coverup'></div>
+	</div>
+	<div id='repeatball' class='ball'>
+		<div class='deco1'></div>
+		<div class='deco2'></div>
+		<div class='deco3'></div>
+		<div class='pokebutton'></div>
+		<div class='coverup'></div>
+	</div>
+	<div id='heavyball' class='ball'>
+		<div class='deco1'></div>
+		<div class='deco2'></div>
+		<div class='deco3'></div>
+		<div class='deco4'></div>
+		<div class='pokebutton'></div>
+	</div>
+	<br style='clear:both;' />
+</body>
+</html>
